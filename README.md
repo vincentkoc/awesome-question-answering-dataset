@@ -966,6 +966,36 @@ document_id,set,question,answer1,answer2,question_tokenized,answer1_tokenized,an
 }
 ```   
 
+-   [TinyQA Benchmark++ (Multi-lingual)](https://github.com/vincentkoc/tiny_qa_benchmark_pp)
+```
+[
+  {
+    "text": "Сколько будет 7 × 8?",
+    "label": "56",
+    "context": "7 × 8 равно 56.",
+    "tags": {
+      "category": "math",
+      "difficulty": "easy"
+    },
+    "sha256": "07995551592a770d95de4a43a0f6d17ce40c8330c093205aeef9bf1fc5e5d482",
+    "id": "5e480533",
+    "lang": "ru"
+  },
+  {
+    "text": "Какова столица Франции?",
+    "label": "Париж",
+    "context": "Столицей Франции является Париж.",
+    "tags": {
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    "sha256": "e0940097974033f5931509e864c798f5f44f6588af27356cca366cc51fca836a",
+    "id": "19673aca",
+    "lang": "ru"
+  },
+```
+
+
 ### User log
 -   [MSMARCO - Eng](http://www.msmarco.org/) 
 ```   
